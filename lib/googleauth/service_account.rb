@@ -172,7 +172,7 @@ module Google
         a_hash
       end
 
-      # Returns a clone of a_hash updated with the authoriation header
+      # Returns a clone of a_hash updated with the authorization header
       def apply(a_hash, opts = {})
         a_copy = a_hash.clone
         apply!(a_copy, opts)
